@@ -1,0 +1,13 @@
+@mixin notification {
+ padding:10px;
+ border-radius:5px;
+ font-size:1em;
+ }
+
+$a:200px;
+$b:400px;
+
+.ab{
+  border:$a;
+  font:$b;
+}
